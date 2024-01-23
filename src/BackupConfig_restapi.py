@@ -105,8 +105,8 @@ def backup_config(remote_sw, remote_srv):
     filename = switch_ip + '_' + timestamp + '.json'
     print(filename)
     full_path = method + "://" + rem_login + ":" + rem_passwd + "@" + rem_serv + rem_path + '/' + filename
-    f"://{rem_login}:{rem_passwd}@{rem_serv}{rem_path}/{filename}"
-    f"://{rem_login}:{rem_passwd}@{rem_serv}{rem_path}/{filename}"
+    # f"://{rem_login}:{rem_passwd}@{rem_serv}{rem_path}/{filename}"
+    # f"://{rem_login}:{rem_passwd}@{rem_serv}{rem_path}/{filename}"
     print(f'{full_path}')
 
     request_data = {

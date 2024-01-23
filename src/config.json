@@ -1,0 +1,27 @@
+{
+  "general_config": {
+    "dst_server_method": "http",
+    "dst_server_port": "8000",
+    "dst_server_ip": "192.168.1.119",
+    "file_to_backup": "config_db.json",
+    "dst_server_path": "/backups"
+  },
+  "switches": [
+    {
+      "name": "leaf1",
+      "switch_ip": "192.168.1.129",
+      "username": "admin",
+      "password": "admin123",
+      "description": "leaf1_lab_switch",
+      "firmware_ver": "4.1.1"
+    },
+    {
+      "name": "leaf2",
+      "switch_ip": "192.168.1.130",
+      "username": "admin",
+      "password": "admin123",
+      "description": "leaf2_lab_switch",
+      "firmware_ver": "3.5.1"
+    }
+  ]
+}
